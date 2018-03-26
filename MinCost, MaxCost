@@ -3,6 +3,7 @@
 import sys
 
     input = sys.argv[1]
+    #Reads text file
     res = {}
     f = open(input, 'r')
     for line in f:
